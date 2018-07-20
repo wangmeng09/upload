@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登陆页</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/Swiper-2.7.6/idangerous.swiper.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/public.css">
+   <link rel="stylesheet" href="css/portalDesktopIE.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--tooltips-->
+<div class="header" style=" position: fixed;z-index: 2;top: 0;width: 100%;">
+    <div class="row" style="margin: 0 auto;width: 1270px;">
+        <div class="col-md-4 my-15">
+            <img alt="logo" src="images/logo.png">
+            <span class="h3" style="vertical-align: middle">工银聚金融服务平台</span>
+        </div>
+        <div class="col-md-4 my-15" style="padding-top: 5.5px;">
+            <ul>
+                <li class="list-group-item"><a class="nav-link active" href="#">首页</a></li>
+                <li class="list-group-item"><a class="nav-link" href="#">到账伴侣</a></li>
+                <li class="list-group-item"><a class="nav-link" href="#">收款伴侣</a></li>
+                <li class="list-group-item"><a class="nav-link" href="#">工银e贷</a></li>
+            </ul>
+        </div>
+        <div  class="col-md-4 my-15" style="margin:19.5px 0;text-align: right">
+            <button class="btn icbc-btn headerBtn badge-pill font14"
+                    data-toggle="modal" data-target="#exampleModalCenter" type="button" style="border-radius: 15px;color: #fff;">会员中心</button>
+        </div>
+    </div>
+</div>
+<div class="swiper-container portalLogin" id="swiper1">
+  <div class="swiper-wrapper">
+      <!--第一页-->
+      <div class="swiper-slide firstBg">
+          <div class="title" style="margin-top: 20%;margin-bottom: 0;text-align: center;">
+              <h1 class="firstChild animated">工银聚&nbsp;&nbsp;&nbsp;共赢聚</h1>
+              <div class="clearfix" style="margin-top: 5%;">
+                  <button type="button" class="btn icbc-btn rounded-0 font14 w120 float-left" style="border-radius: 0" data-toggle="modal" data-target="#menberRegister" >用户注册</button>
+                  <button type="button" class="btn btn-transparent rounded-0 font14 w120 float-right" style="border-radius: 0;margin-left: 2%;" data-toggle="modal" data-target="#exampleModalCenter">立即登录</button>
+              </div>
+          </div>
+      </div>
+      <!--第二页三大精品功能介绍-->
+      <div class="swiper-slide secondBg">
+          <div class="triangle secondWH secondChild animated">
+              <div class="w104 mx-auto font20">
+                  <p class="circle circleRed">
+                      <i class="iconfont icon-tubiaozhizuomoban font50"></i>
+                  </p>
+                  <p>到账伴侣</p>
+              </div>
+              <div class="triangleBottom marginTop16 font20 clearfix">
+                  <div class="w104 float-left">
+                      <p class="circle circleYellow">
+                          <i class="iconfont icon-shoukuan font50"></i>
+                      </p>
+                      <p>收款伴侣</p>
+                  </div>
+                  <div class="w104 float-right">
+                      <p class="circle circleBlue">
+                          <i class="iconfont icon-daikuan font50"></i>
+                      </p>
+                      <p>工银e贷</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+       <!--第三页到账伴侣-->
+    <div class="swiper-slide thirdBg text-white font14">
+      <div class="animated thirdChild w1270 px-3 marginTop16" style="height: 100%;">
+        <div class="text-left reciveTitle ">
+          <h2>到账伴侣</h2>
+          <h6 class="bg-blue">在不改变客户原有付款习惯的基础上，提供实时信息通知与系统自动记账功能，从而有效提升您在资金、票据结算过程中的信息传递效率，减少繁琐的确认沟通和手工记账工作，提高工作效率和准确度。</h6>
+        </div>
+        <div class="row mt-5 thirdChild_main_bak" style="height: 600px;">
+          <div class="col p-0">
+            <div class="iphoneBg">
+              <div class="iphoneLunbo">
+                <div class="swiper-container" id="swiper2">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="width: 180px;">
+                      <img src="images/iphone/No1.png">
+                    </div>
+                    <div class="swiper-slide" style="width: 180px;">
+                      <img src="images/iphone/No2.png">
+                    </div>
+                    <div class="swiper-slide" style="width: 180px;">
+                      <img src="images/iphone/No3.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col p-0 mt-10 reciverTitle">
+            <dl class="reciverRight text-left">
+              <div class="font22">
+                <i class="iconfont icon-jingdiantese font28"></i>&nbsp;&nbsp;到账伴侣特点
+              </div>
+              <div>
+                <span>及时性</span>账户变动实时通知
+              </div>
+              <div>
+                <span>便捷性</span>财务信息自动记账
+              </div>
+              <div>
+                <span>信息全</span>来账信息可全展示
+              </div>
+              <div>
+                <span>个性化</span>按需求设置接收人
+              </div>
+              <div>
+                <span>多元化</span>境内外类型账户
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--第四页收款伴侣-->
+    <div class="swiper-slide fourBg text-left">
+      <div class="row animated fourChild w1270 marginTop20" style="height: 100%;">
+        <div class="col">
+          <div class="text-left reciveTitle mt-30">
+            <h2>收款伴侣</h2>
+            <h6 class="bg-orange">工银聚平台接收客户或企业的交易信息及支付指令，收款伴侣进行扣款后，将扣款结果返回企业，满足了企业收款结算的重要需求。</h6>
+          </div>
+        </div>
+        <div class="col">
+          <div class=" reciveTitle ">
+            <div class="font22">
+              <i class="iconfont icon-hangyeyoushi font28"></i>&nbsp;收款伴侣服务优势及好处
+            </div>
+            <div class="row font14 reciveTitle-text">
+              <div class="col">- 专属收款平台，彰显企业实力</div>
+              <div class="col">- 专线对接系统，收款安全便捷</div>
+              <div class="w-100"></div>
+              <div class="col">
+                - 定制应用场景，满足收款需求
+              </div>
+              <div class="col">
+                - 手续费用低廉，实时信息展示
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                - 可选短信确认，掌握资金安全
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="reciveTitle marginTop16">
+              <div class="font22">
+                <i class="iconfont icon-jingdiantese font28"></i>&nbsp;收款伴侣功能特点
+              </div>
+              <ul class="list-group">
+                <li class="list-group-item">支持在线与客户签约解约</li>
+                <li class="list-group-item">支持各家银行的客户缴款</li>
+                <li class="list-group-item">支持系统对接且入账实时</li>
+                <li class="list-group-item">支持财务记账信息自动化</li>
+                <li class="list-group-item">支持催缴个人和企业客户</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--第六页底部-->
+      <div class="sixBottom" style="position: absolute;bottom:0;left:0;">
+        <ul class="m-auto">
+          <li>网站首页</li>
+          <li>用户指南</li>
+          <li>关于我们</li>
+          <li>工商银行</li>
+        </ul>
+        <div class="clearfix"></div>
+        <p>©2015 浙江工银聚 版权所有 公司地址：中国 浙江省杭州市下城区新市街153号 电话：0571-85135997</p>
+      </div>
+  </div>
+  <div class="pagination"></div>
+</div>
+
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="../vendor/Swiper-2.7.6/idangerous.swiper.js"></script>
+<script>
+$(function () {
+
+    var swiper1= new Swiper('.swiper-container', {
+        mode: 'vertical' ,
+        mousewheelControl : true,
+        pagination : '.pagination',
+        paginationClickable :true,
+        loop : false//可选选项，开启循环
+    });
+})
+
+</script>
+</body>
+</html>
